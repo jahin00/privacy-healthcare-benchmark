@@ -51,7 +51,7 @@ attack resistance in one comparison so the trade-offs are visible instead of ass
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/privacy-healthcare-benchmark.git
+git clone https://github.com/<jahin00>/privacy-healthcare-benchmark.git
 cd privacy-healthcare-benchmark
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
