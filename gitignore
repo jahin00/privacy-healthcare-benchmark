@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Benchmark and app outputs
+benchmark_outputs/
+runs/
+uploads/
+*.pkl
+FEL_*.json
+FEL_*.csv
+
+# Data: never commit patient data
+data/
+*.csv
+!docs/*.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

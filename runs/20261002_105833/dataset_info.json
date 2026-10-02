@@ -1,0 +1,61 @@
+{
+  "mode": "generic",
+  "features": [
+    "age",
+    "cp",
+    "fbs",
+    "oldpeak",
+    "sex",
+    "chol",
+    "exang",
+    "restecg",
+    "slope",
+    "trestbps",
+    "thalach",
+    "bmi",
+    "ca",
+    "dataset",
+    "diabp",
+    "exerciseangia",
+    "glucose",
+    "heartrate",
+    "noofmajorvessels",
+    "restingbp",
+    "restingrelectro",
+    "serumcholestrol",
+    "smkr",
+    "thal",
+    "thalch"
+  ],
+  "sensitive_feature": "fbs",
+  "sites": [
+    {
+      "site": "Cardiovascular_Disease",
+      "rows": 1000,
+      "positive_rate": 0.58,
+      "target": "target",
+      "features_present": 12
+    },
+    {
+      "site": "Copy_of_MainData",
+      "rows": 4238,
+      "positive_rate": 0.1519584709768759,
+      "target": "target",
+      "features_present": 14
+    },
+    {
+      "site": "heart_disease_01",
+      "rows": 1025,
+      "positive_rate": 0.5131707317073171,
+      "target": "target",
+      "features_present": 13
+    },
+    {
+      "site": "heart_disease_uci",
+      "rows": 920,
+      "positive_rate": 0.5532608695652174,
+      "target": "num",
+      "features_present": 12
+    }
+  ]
+}
